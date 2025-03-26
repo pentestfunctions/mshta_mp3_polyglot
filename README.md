@@ -7,7 +7,7 @@
 
 This tool creates dual-purpose MP3 files that:
 - ▶️ Play normally in any media player
-- 🌐 Execute an HTA payload when opened with `mshta.exe`
+- 🌐 Execute an HTA payload when opened with `mshta.exe "C:\Full\Path\To\File\modified.mp3"`
 
 Perfect for red team exercises, penetration testing, and security research.
 
@@ -27,6 +27,8 @@ Perfect for red team exercises, penetration testing, and security research.
 
 # Current Configuration
 - Currently it's simply configured to open https://hacknexus.io upon executing the mp3 file. 
+- The modified.mp3 provided will find your default browser and launch it to the said URL.
+- Ensure you test the modified.mp3 file using `mshta.exe 
 
 ## 📋 Usage
 
