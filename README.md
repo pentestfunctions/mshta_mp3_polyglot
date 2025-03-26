@@ -79,10 +79,6 @@ For even better stealth, create a small C program that:
 
 This tool is intended for **authorized security testing and educational purposes only**. Always obtain proper permissions before testing on any system or network you don't own.
 
-## 📜 License
-
-MIT License - See the LICENSE file for details.
-
 ## 🔗 Links
 
 - [Personal Website](https://hacknexus.io)
